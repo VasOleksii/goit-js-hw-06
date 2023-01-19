@@ -7,11 +7,11 @@ function inputValidTest(event) {
 
 Number(inputRef.getAttribute('data-length')) === event.currentTarget.value.length ? 
 
-inputRef.classList.add('valid') ||
-inputRef.classList.remove('invalid')
+(inputRef.classList.add('valid'),
+inputRef.classList.remove('invalid'))
 :
-inputRef.classList.add('invalid') ||
-inputRef.classList.remove('valid')
+(inputRef.classList.add('invalid'),
+inputRef.classList.remove('valid'))
 }
 
 
