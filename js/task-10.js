@@ -32,5 +32,5 @@ function createBoxes() {
 }
 
 function destroyBoxes() {
-  refs.div.innerHTML = '';
+  refs.boxGallery.innerHTML = '';
 }
